@@ -1,0 +1,21 @@
+#our-story {
+    height: auto;
+}
+
+.story-ctn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 10em;
+}
+
+.green-ctn {
+    border: 1.5px solid #181818;
+    background-color: #34772C;
+    padding: 0.75em 1.25em 0.75em 1.25em;
+    border-radius: 1.5em; 
+    width: 5em;
+}

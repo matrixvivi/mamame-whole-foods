@@ -1,5 +1,28 @@
+@font-face {
+  font-family: 'WindsorEFBold';
+  src: local('WindsorEFBold'), url('./fonts/WindsorEFBold.woff') format('woff'), 
+  url('./fonts/WindsorEFBold.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'NeueMontreal';
+  src: url('./fonts/PPNeueMontreal-Book.woff') format('woff'),
+  url('./fonts/PPNeueMontreal-Book.woff2') format('woff2');
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'NeueMontreal';
+  src: url('./fonts/PPNeueMontreal-Regular.woff') format('woff'),
+  url('./fonts/PPNeueMontreal-Regular.woff2') format('woff2');
+  font-weight: 450;
+}
+@font-face {
+  font-family: 'NeueMontreal';
+  src: url('./fonts/PPNeueMontreal-Bold.woff') format('woff'), 
+  url("./fonts/PPNeueMontreal-Bold.woff2") format('woff2');
+  font-weight: 800;
+}
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'NeueMontreal';
   line-height: 1.5;
   font-weight: 400;
 
@@ -15,12 +38,10 @@
 }
 
 a {
-  font-weight: 500;
-  color: #646cff;
+  font-family: 'NeueMontreal';
+  font-weight: 400;
+  color: #181818;
   text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
 }
 
 body {
@@ -28,12 +49,29 @@ body {
   display: flex;
   place-items: center;
   min-width: 320px;
+  overflow-x: hidden;
   min-height: 100vh;
 }
 
 h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+  font-size: 4em;
+  font-family: 'WindsorEFBold';
+  line-height: 1;
+}
+
+h2 {
+  font-size: 2.5em;
+  font-family: 'WindsorEFBold';
+  line-height: 1;
+}
+h3 {
+  font-size: 1.65em;
+  font-family: 'WindsorEFBold';
+  line-height: 1;
+}
+
+p {
+  font-size: 1.15em;
 }
 
 button {

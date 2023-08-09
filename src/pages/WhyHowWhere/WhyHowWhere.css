@@ -1,0 +1,57 @@
+#whyhowwhere {
+    display: flex;
+    justify-content: center;
+    height: auto;
+    overflow-x: hidden;
+    padding-bottom: 2em;
+}
+.main-ctn {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.why-ctn {
+    left: 0;
+    text-align: left;
+    align-items: flex-start;
+    padding: 2.5em;
+    padding-left: 2em;
+}
+
+.why-ctn p {
+    padding: 0 0 0 1em;
+    width: 45%;
+}
+
+.why-ctn img {
+    margin-left: -15px;
+}
+.how-ctn {
+    text-align: center;
+    padding: 2.5em;
+    align-items: center;
+}
+
+.how-ctn p {
+    width: 45%;
+    margin: 0 auto;
+}
+
+.where-ctn {
+    right: 0;
+    padding: 2.5em;
+    padding-right: 2em;
+    text-align: right;
+    align-items: flex-end;
+}
+
+.where-ctn img {
+    margin-right: -15px;
+}
+
+.sticker {
+    width: 250px;
+    height: auto;
+}

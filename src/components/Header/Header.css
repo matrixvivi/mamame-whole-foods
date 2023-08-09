@@ -1,0 +1,89 @@
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffead2;
+    padding: 25px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+  }
+
+.logo {
+    width: 7em;
+    height: auto;
+}
+
+.social-container {
+    right: 3.75em;
+    position: fixed;
+}
+
+.socials {
+    width: 2.2em;
+    padding: 1.25em;
+    height: auto;
+}
+
+/* react-burger-menu styling */
+.bm-burger-button {
+    position: fixed;
+    width: 36px;
+    height: 30px;
+    left: 5em;
+    top: 4em;
+  }
+  
+  
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+height: 25px;
+width: 25px;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+background: #181818;
+}
+
+/*
+Sidebar wrapper styles
+*/
+.bm-menu-wrap {
+position: fixed;
+height: 100%;
+left: 0;
+top: 0;
+}
+
+/* General sidebar styles */
+.bm-menu {
+background: #F2AA3C;
+border-right: 1.5px solid #181818;
+padding: 2.5em 1.5em 0 0;
+font-size: 1.5em;
+overflow: hidden;
+overflow-y: hidden;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+color: #181818;
+padding: 2em;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+/* Individual item */
+.bm-item {
+display: inline-block;
+padding-bottom: 8em;
+}
+.menu-item {
+    color: #181818;
+}

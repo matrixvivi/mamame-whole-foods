@@ -1,0 +1,26 @@
+#footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.foot-mini-ctn {
+    box-sizing: border-box;
+    width: 92.5%;
+    height: 200px;
+    border: 1.5px solid #181818;
+    border-radius: 60px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+    margin-bottom: 2.5%;
+    padding-left: 5em;
+}
+
+.foot-mini-ctn h3 {
+    margin: 0 0 10px 0;
+}
+.foot-mini-ctn p,a {
+    font-weight: 450 !important;
+    margin: 0;
+}

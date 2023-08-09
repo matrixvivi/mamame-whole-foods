@@ -1,0 +1,28 @@
+
+.bottom-ctn {
+    height: auto;
+    margin: 0;
+    box-sizing: border-box;
+    border-top: 1.5px solid #181818;
+    background-color: #F2AA3C;
+    left: 0;
+    right: 0;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.forint-p {
+    padding-top: 1em;
+    width: 44%;
+    text-align: center;
+    line-height: 1.5;
+    transform: translateY(-100px);
+}
+.img-sticker {
+    width: 400px;
+    transform: translateY(-130px);
+}
+
+

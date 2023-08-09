@@ -1,0 +1,49 @@
+.hero-ctn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12vh;
+    height: 70vh;
+}
+
+.left-ctn {
+    flex: 1;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.left-ctn h1 {
+    margin-bottom: 0px;
+    padding-right: 1.2em;
+}
+
+.left-ctn p {
+    margin-bottom: 25px;
+}
+
+.right-ctn {
+    flex: 1; 
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.frame {
+    width: 40vw;
+    height: 475px;
+    flex-shrink: 0;
+    border: 1.5px solid #181818;
+    border-radius: 140px;
+    overflow: hidden;
+}
+
+.hero-img {
+    width: 600px;
+    height: auto;  
+    margin-top: 4em;
+    margin-left: 2.2em;
+    flex-shrink: 0;
+}
