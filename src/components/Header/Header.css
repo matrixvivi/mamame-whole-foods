@@ -13,18 +13,18 @@
   }
 
 .logo {
-    width: 7em;
+    width: 6.5em;
     height: auto;
 }
 
 .social-container {
-    right: 3.75em;
+    right: 2em;
     position: fixed;
 }
 
 .socials {
     width: 2.2em;
-    padding: 1.25em;
+    padding: 1em;
     height: auto;
 }
 
@@ -33,7 +33,7 @@
     position: fixed;
     width: 36px;
     height: 30px;
-    left: 5em;
+    left: 0em;
     top: 4em;
   }
   
@@ -79,11 +79,13 @@ justify-content: center;
 align-items: center;
 }
 
-/* Individual item */
 .bm-item {
-display: inline-block;
-padding-bottom: 8em;
+display: flex;
+overflow-y: hidden;
+padding-bottom: 3em;
+text-align: center;
 }
+
 .menu-item {
     color: #181818;
 }

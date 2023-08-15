@@ -26,3 +26,9 @@
 }
 
 
+
+@media (max-width: 780px) {
+    .forint-p {
+        width: 75%;
+    }
+}

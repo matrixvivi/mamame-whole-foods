@@ -44,7 +44,15 @@
     padding: 2.5em;
     padding-right: 2em;
     text-align: right;
+    display: flex;
+    flex-direction: column;
     align-items: flex-end;
+}
+
+
+.where-ctn p {
+    width: 50%;
+    padding-right: 1em;
 }
 
 .where-ctn img {
@@ -54,4 +62,16 @@
 .sticker {
     width: 250px;
     height: auto;
+}
+
+@media (max-width: 780px) {
+    .why-ctn p {
+        width: 80%
+    }
+    .how-ctn p {
+        width: 80%
+    }
+    .where-ctn p {
+        width: 80%
+    }
 }
