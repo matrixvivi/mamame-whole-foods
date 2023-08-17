@@ -1,5 +1,6 @@
 import React from 'react'
 import './OurFlavors.css'
+import Button from '../../components/Button/Button';  
 import bbq from '../../assets/package-dsn/bbq.png'
 import cheese from '../../assets/package-dsn/cheese.png'
 import chili from '../../assets/package-dsn/chili.png'
@@ -13,6 +14,7 @@ const OurFlavors = () => {
             <div className="flavor-ctn">
                 <div className="yellow-box">
                     <h2>Our Flavors</h2>
+                    <Button type="green" position="relative" bold={true} margin="2.2em" size="1em">SEE MORE</Button>
                     <div className="flavor-list">
                         <div className="primary">
                             <div className="item-ctn">

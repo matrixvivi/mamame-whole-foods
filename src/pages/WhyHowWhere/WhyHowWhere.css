@@ -64,7 +64,7 @@
     height: auto;
 }
 
-@media (max-width: 780px) {
+@media (max-width: 880px) {
     .why-ctn p {
         width: 80%
     }

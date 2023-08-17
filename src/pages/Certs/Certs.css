@@ -1,0 +1,26 @@
+#certs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+}
+.cert-ctn {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 7%;
+    align-items: center;
+}
+
+.cert-img {
+    height: 6em;
+    width: auto;
+    padding: 4vw;
+}
+
+@media (max-width: 880px) {
+    .cert-img {
+        padding: 2vw;
+        height: 5em;
+    }
+}

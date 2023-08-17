@@ -1,5 +1,6 @@
 #what {
-    height: 120vh;
+    height: auto;
+    padding-bottom: 25%;
     text-align: center;
 }
 .red-tempeh {
@@ -44,20 +45,21 @@
     padding-right: 1.5em;
 }
 
-@media (max-width: 780px) {
+@media (max-width: 880px) {
     #what {
         height: auto;
+        padding-bottom: 2em;
     }
     .what-ctn {
         flex-direction: column;
     }
     .red-tempeh {
-        margin-top: 0vh;
+        margin-top: 2vh;
     }
     .right-ctn h1{
-        padding-top: 200px;
+        padding-top: 4.5em;
     }
     .right-ctn p {
-        padding-bottom:300px;
+        padding-bottom:4em;
     }
 }
