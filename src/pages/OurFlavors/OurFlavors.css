@@ -1,10 +1,10 @@
 #our-flavors {
-    height: 75vh;
+    height: auto;
+    margin-bottom: 100vh;
     overflow-x: hidden;
 }
 .flavor-ctn {
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-direction: column;
 }
@@ -12,6 +12,8 @@
 .flavor-ctn h2 {
     z-index: 2;
     padding-top: 0.5em;
+    padding-bottom: 0;
+    transform: translateY(10px);
 }
 
 .flavor-list {
@@ -80,7 +82,7 @@
 
 .yellow-box {
     width: 100vw;
-    height: 400px;
+    height: 440px;
     margin-top: 5em;
     border: 1.5px solid #181818;
     background-color: #F2AA3C;
@@ -98,5 +100,11 @@
     }
     .secondary {
         animation: scrollListRev 25s infinite linear;
+    }
+    .item-ctn img {
+        width: 220px;
+    }
+    .yellow-box {
+        height: 370px;
     }
 }
