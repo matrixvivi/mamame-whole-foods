@@ -15,7 +15,7 @@
 
 .forint-p {
     padding-top: 1em;
-    width: 50%;
+    width: 44%;
     text-align: center;
     line-height: 1.5;
     transform: translateY(-100px);
@@ -27,7 +27,7 @@
 
 
 
-@media (max-width: 880px) {
+@media (max-width: 780px) {
     .forint-p {
         width: 75%;
     }

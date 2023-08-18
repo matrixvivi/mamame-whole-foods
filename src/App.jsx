@@ -6,7 +6,6 @@ import OurFlavors from './pages/OurFlavors/OurFlavors'
 import WhyHowWhere from './pages/WhyHowWhere/WhyHowWhere'
 import OurStory from './pages/OurStory/OurStory'
 import ForIntParties from './pages/ForIntParties/ForIntParties'
-import Certs from './pages/Certs/Certs'
 
 import './App.css'
 
@@ -18,7 +17,6 @@ function App() {
         <Header />
         <Hero />
         <What/>
-        <Certs/>
         <OurFlavors />
         <WhyHowWhere />
         <OurStory/>

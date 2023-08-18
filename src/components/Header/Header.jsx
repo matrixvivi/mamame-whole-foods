@@ -35,13 +35,13 @@ class Header extends React.Component {
         return (
             <header className="header">
                 <Menu isOpen={this.state.menuOpen} onStateChange={(state) => this.handleStateChange(state)} noOverlay pageWrapId={ "page-wrap" } customBurgerIcon={false}>
-                    <a id="home" className="menu-item" href="#hero">Home</a>
-                    <a id="ourflavors" className="menu-item" href="#our-flavors">Our Flavors</a>
-                    <a id="about" className="menu-item" href="#our-story">About Us</a>
-                    <a id="process" className="menu-item" href="#whyhowwhere">Our Process</a>
-                    <a id="contact" className="menu-item" href="#for-interested">Contact</a>
+                    <a id="home" className="menu-item" href="/">Home</a>
+                    <a id="ourflavors" className="menu-item" href="/about">Our Flavors</a>
+                    <a id="about" className="menu-item" href="/about">About Us</a>
+                    <a id="about" className="menu-item" href="/about">About Tempeh Chips</a>
+                    <a id="contact" className="menu-item" href="/contact">Contact</a>
                 </Menu>
-                <Button onClick={() => this.toggleMenu()} type="green" position="absolute" size="1.1em">Menu</Button>
+                <Button onClick={() => this.toggleMenu()} type="green" position="absolute">Menu</Button>
                 <img className="logo" src={mamameLogo}></img>
                 <div className="social-container">
                     <a href=""><img src={instagram} className='socials'/></a>
