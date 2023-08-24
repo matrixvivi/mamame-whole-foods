@@ -1,20 +1,20 @@
 #footer {
-    width: 100%;
     display: flex;
+    width: 100%;
     justify-content: center;
+    padding-bottom: 2.5em;
 }
 .foot-mini-ctn {
     box-sizing: border-box;
     width: 92.5%;
-    height: 200px;
+    height: 210px;
     border: 1.5px solid #181818;
     border-radius: 60px;
     display: flex;
     flex-direction: column;
     text-align: left;
     justify-content: center;
-    margin-bottom: 2.5%;
-    padding-left: 5em;
+    padding-left: 5.5em;
 }
 
 .foot-mini-ctn h3 {
@@ -23,4 +23,13 @@
 .foot-mini-ctn p,a {
     font-weight: 450 !important;
     margin: 0;
+}
+
+@media (max-width: 880px) {
+    #footer {
+        width: 95%;
+    }
+    .foot-mini-ctn {
+        padding-left: 2.5em;
+    }
 }

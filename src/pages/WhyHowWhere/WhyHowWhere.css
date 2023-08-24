@@ -3,7 +3,7 @@
     justify-content: center;
     height: auto;
     overflow-x: hidden;
-    padding-bottom: 2em;
+    padding: 2em;
 }
 .main-ctn {
     padding: 0;
@@ -65,8 +65,25 @@
 }
 
 @media (max-width: 880px) {
+    #why-how-where {
+        width: 100%;
+        padding: 0em;
+    }
+    .sticker {
+        width: 200px;
+        height: auto;
+    }
     .why-ctn p {
         width: 80%
+    }
+    .why-ctn {
+        padding: 1em;
+    }
+    .how-ctn {
+        padding: 1em;
+    }
+    .where-ctn {
+        padding: 1em;
     }
     .how-ctn p {
         width: 80%

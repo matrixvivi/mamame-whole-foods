@@ -16,21 +16,20 @@ class Header extends React.Component {
         }
       }
     
-      // This keeps your state in sync with the opening/closing of the menu
-      // via the default means, e.g. clicking the X, pressing the ESC key etc.
-      handleStateChange (state) {
-          this.setState({ menuOpen: state.isOpen })
-      }
-      
-      // used to close the menu, e.g. when a user clicks a menu item
-      closeMenu () {
-        this.setState({menuOpen: false})
-      }
+    // via the default means, e.g. clicking the X, pressing the ESC key etc.
+    handleStateChange (state) {
+        this.setState({ menuOpen: state.isOpen })
+    }
     
-      toggleMenu () {
-        this.setState(state => ({menuOpen: !state.menuOpen}))
-      }    
+    // used to close the menu, e.g. when a user clicks a menu item
+    closeMenu () {
+      this.setState({menuOpen: false})
+    }
   
+    toggleMenu () {
+      this.setState(state => ({menuOpen: !state.menuOpen}))
+    }    
+
     render() {
         return (
             <header className="header">
@@ -41,11 +40,11 @@ class Header extends React.Component {
                     <a id="process" className="menu-item" href="#whyhowwhere">Our Process</a>
                     <a id="contact" className="menu-item" href="#for-interested">Contact</a>
                 </Menu>
-                <Button onClick={() => this.toggleMenu()} type="green" position="absolute" size="1.1em">Menu</Button>
+                <Button onClick={() => this.toggleMenu()} type="green" position="absolute" size="1.05em">Menu</Button>
                 <img className="logo" src={mamameLogo}></img>
                 <div className="social-container">
-                    <a href=""><img src={instagram} className='socials'/></a>
-                    <a href=""><img src={email} className='socials'/></a>
+                    <a href="https://www.instagram.com/mamametempehchips" target="_blank"><img src={instagram} className='socials'/></a>
+                    <a href="mailto: info@mamame.co" target="_blank"><img src={email} className='socials'/></a>
                 </div>
             </header>
 

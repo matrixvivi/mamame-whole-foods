@@ -1,3 +1,7 @@
+#hero {
+  padding: 3em;
+  padding-top: 4em;
+}
 .hero-ctn {
     display: flex;
     justify-content: center;
@@ -7,7 +11,7 @@
 }
 
 .left-ctn {
-    flex: 1;
+  flex: 1;
   padding: 40px;
   display: flex;
   flex-direction: column;
@@ -17,7 +21,7 @@
 
 .left-ctn h1 {
     margin-bottom: 0px;
-    padding-right: 1.2em;
+    padding-right: 1.4em;
 }
 
 .left-ctn p {
@@ -32,7 +36,7 @@
 }
 
 .frame {
-    width: 40vw;
+    width: 44vw;
     height: 475px;
     flex-shrink: 0;
     border: 1.5px solid #181818;
@@ -50,6 +54,9 @@
 
 
 @media (max-width: 880px) {
+  #hero {
+    padding: 0;
+  }
   .hero-ctn {
     flex-direction: column-reverse;
     align-items: center;
@@ -59,17 +66,19 @@
   .left-ctn {
     align-items: center !important;
     text-align: center;
+    padding: 10px !important;
   }
 
   .left-ctn h1 {
     padding: 0;
+    margin-top: 0.5em;
   }
   .right-ctn {
-    padding: 14vh 0 0 0 !important;
+    padding: 28% 0 0 0 !important;
   }
 
   .frame {
-    width: 70vw;
+    width: 75vw;
     height: 250px;
     border-radius: 110px;
     display: flex;
@@ -78,9 +87,9 @@
 
   .hero-img {
     width: 75%;
-    max-width: 400px;
+    max-width: 450px;
     min-width: 300px;
     margin: 0 auto;
-    padding-top: 35%;
+    padding-top: 36%;
   }
 }

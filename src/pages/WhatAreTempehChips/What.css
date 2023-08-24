@@ -54,12 +54,15 @@
         flex-direction: column;
     }
     .red-tempeh {
-        margin-top: 2vh;
+        min-width: 450px;
     }
     .right-ctn h1{
         padding-top: 4.5em;
     }
     .right-ctn p {
         padding-bottom:4em;
+        padding-top: 1.5em;
+        width: 70%;
+        margin: 0 auto;
     }
 }
