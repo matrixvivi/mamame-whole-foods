@@ -1,6 +1,6 @@
 import React, { useRef } from 'react'
 
-const Button = ({ children, type, position, bold, margin, size, scrollTo }) => {
+const Button = ({ children, type, onClick, position, bold, margin, size, scrollTo }) => {
   const buttonStyle = {
     border: '1.5px solid #181818',
     borderRadius: '3em', 
@@ -18,12 +18,18 @@ const Button = ({ children, type, position, bold, margin, size, scrollTo }) => {
 
   const targetRef = useRef(null);
   
-  const handleScroll = () => {
-    if (scrollTo && targetRef.current) {
-      window.scrollTo({
-        top: targetRef.current.offsetTop,
-        behavior: 'smooth', // Optional: Adds smooth scrolling effect
-      });
+  const handleClick = () => {
+    if (position === 'absolute') {
+      if (onClick) {
+        onClick();
+      }
+    } else {
+      if (scrollTo && targetRef.current) {
+        window.scrollTo({
+          top: targetRef.current.offsetTop,
+          behavior: 'smooth', // Optional: Adds smooth scrolling effect
+        });
+      }
     }
   };
   
@@ -56,7 +62,7 @@ const Button = ({ children, type, position, bold, margin, size, scrollTo }) => {
       style={window.innerwidth <= 880 ? mobileButtonStyle : currentStyle}
       onMouseEnter={() => setCurrentStyle(buttonHoverStyle)}
           onMouseLeave={() => setCurrentStyle(buttonStyle)}
-          onClick={handleScroll}
+          onClick={handleClick}
     >
       {children}
     </button>
