@@ -94,6 +94,9 @@
 
 
 @media (max-width: 780px) {
+    #our-flavors {
+        height: 650px;
+    }
     .primary {
         animation: scrollList 25s infinite linear;
     }
@@ -101,9 +104,13 @@
         animation: scrollListRev 25s infinite linear;
     }
     .item-ctn img {
-        width: 220px;
+        width: 180px;
+    }
+    .item-ctn p {
+        font-size: 14px !important;
     }
     .yellow-box {
         height: 370px;
+        margin-top: 20px;
     }
 }

@@ -10,7 +10,7 @@ const Hero = () => {
                 <div className="left-ctn">
                     <h1>Mamame Tempeh Chips</h1> 
                     <p>Introducing the mighty Tempeh Chip - 100% Gluten-Free, Vegan, and Plant-Based, our chips taste as good as they are healthy.</p>
-                    <Button type="yellow" position="relative" bold={true} size="1.05em" scrollTo="our-flavors">CONTACT US!</Button>
+                    <Button type="yellow" position="relative" bold={true} size="1.05em" scrollTo="for-interested">CONTACT US!</Button>
                 </div>
                 <div className="right-ctn">
                     <div className="frame">

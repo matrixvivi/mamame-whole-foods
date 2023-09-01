@@ -18,9 +18,9 @@
     padding: 4vw;
 }
 
-@media (max-width: 880px) {
+@media (max-width: 780px) {
     .cert-img {
         padding: 2vw;
-        height: 5em;
+        height: 3em;
     }
 }

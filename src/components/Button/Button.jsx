@@ -17,6 +17,7 @@ const Button = ({ children, type, onClick, position, bold, margin, size, scrollT
   };
 
   const targetRef = useRef(null);
+  const targetSection = document.getElementById(scrollTo)
   
   const handleClick = () => {
     if (position === 'absolute') {
@@ -24,10 +25,10 @@ const Button = ({ children, type, onClick, position, bold, margin, size, scrollT
         onClick();
       }
     } else {
-      if (scrollTo && targetRef.current) {
+      if (scrollTo) {
         window.scrollTo({
-          top: targetRef.current.offsetTop,
-          behavior: 'smooth', // Optional: Adds smooth scrolling effect
+          top: targetSection.offsetTop,
+          behavior: 'smooth', 
         });
       }
     }

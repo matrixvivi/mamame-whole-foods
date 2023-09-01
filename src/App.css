@@ -15,8 +15,9 @@
 }
 
 .loader-wrapper h1 {
-  font-size: 1.5em;
+  font-size: 1.5em !important;
 }
+
 
 .absolute {
   position: fixed;
@@ -30,19 +31,3 @@
 @-ms-viewport{
   width: device-width;
 } */
-
-@media (max-width: 780px) {
-  h1 {
-    font-size: 2.75em !important;
-  }
-  h2 {
-    font-size: 2em !important;
-  }
-  h3 {
-    font-size: 1.4em !important;
-  }
-
-  p {
-    font-size: 1em !important;
-  }
-}
