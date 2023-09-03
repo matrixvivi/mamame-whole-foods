@@ -21,7 +21,7 @@ const WhyHowWhere = () => {
                 </div>
                 <div className="where-ctn">
                     <img src={Where} className="sticker" />
-                    <p>Mamame is currently loved across South Korea and Japan.<br/> We are coming to the US soon!</p>
+                    <p>Mamame is currently loved across South Korea and Japan.<br/> We are coming to the US, Thailand, Singapore, UK, Ireland, Austria, Netherlands, Germany, and Poland very soon!</p>
                 </div>
             </div>
         </section>

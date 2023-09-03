@@ -78,12 +78,12 @@
     margin-bottom: 1.2em;
   }
   .right-ctn {
-    padding: 100px 0 0 0 !important;
+    padding: 90px 0 0 0 !important;
   }
 
   .frame {
     width: 85vw;
-    height: 300px;
+    height: 250px;
     border-radius: 110px;
     display: flex;
     align-items: center;
